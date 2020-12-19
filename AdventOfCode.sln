@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2020", "2020", "{9C146C17-812B-4F70-B568-5C9C96CDFFC1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{988BC06C-1764-4B45-BC5A-D8485688351D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DayTwo", "2020\C#\DayTwo\DayTwo.csproj", "{ADA556D9-5DD4-473E-9863-22F30BF1B770}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{988BC06C-1764-4B45-BC5A-D8485688351D} = {9C146C17-812B-4F70-B568-5C9C96CDFFC1}
+		{ADA556D9-5DD4-473E-9863-22F30BF1B770} = {988BC06C-1764-4B45-BC5A-D8485688351D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ADA556D9-5DD4-473E-9863-22F30BF1B770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA556D9-5DD4-473E-9863-22F30BF1B770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA556D9-5DD4-473E-9863-22F30BF1B770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA556D9-5DD4-473E-9863-22F30BF1B770}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
