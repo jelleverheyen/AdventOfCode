@@ -43,6 +43,8 @@ namespace Day1
         public static Policy Parse(string line)
         {
             var groups = Regex.Match(line).Groups;
+            
+            // Skip groups[0] because it will contain the full line
             return new Policy(
                 Convert.ToInt32(groups[1].Value),
                 Convert.ToInt32(groups[2].Value),
